@@ -18,7 +18,7 @@ export class CdkCiCdStack extends cdk.Stack {
           "joshjewe/cdk-ci-cd",
           "cicd-practice",
           {
-            authentication: cdk.SecretValue.secretsManager("github-token-v2"),
+            authentication: cdk.SecretValue.secretsManager("github-token-v3"),
           }
         ),
         installCommands: ["npm install -g aws-cdk"],
